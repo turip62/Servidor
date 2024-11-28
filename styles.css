@@ -1,18 +1,18 @@
-/* Configurações gerais */
+
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: #d3d3d3; /* Fundo cinza */
+    background: #d3d3d3; 
     color: #333;
     text-align: center;
-    height: 100vh; /* Altura total da tela */
+    height: 100vh; 
     display: flex;
     flex-direction: column;
   }
   
-/* Seção Hero - Mensagem principal */
+
 .hero {
-    flex: 1; /* Ocupa a maior parte da tela */
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,7 +21,7 @@ body {
 }
   
 .hero h1 {
-    font-size: 6rem; /* Mensagem bem maior */
+    font-size: 6rem; 
     color: #ff758c;
     margin-bottom: 20px;
 }
@@ -32,7 +32,7 @@ body {
     color: #555;
 }
   
-/* Conteúdo abaixo da mensagem principal */
+
 .content {
     padding: 20px;
 }
@@ -49,24 +49,24 @@ body {
 }
   
 .message p {
-    font-family: 'Arial', sans-serif; /* Garante a mesma fonte do body */
-    font-size: 1.2rem; /* Mantém o tamanho ajustado */
-    color: #333; /* Cor padrão */
-    line-height: 1.5; /* Melhor espaçamento entre linhas */
+    font-family: 'Arial', sans-serif; 
+    font-size: 1.2rem; 
+    color: #333; 
+    line-height: 1.5; 
 }
   
-/* Galeria de imagens */
+
 .images {
-    display: grid; /* Melhor organização com grid */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Colunas responsivas */
-    gap: 20px; /* Espaçamento entre as imagens */
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
     padding: 20px;
     max-width: 1200px;
-    margin: 0 auto; /* Centraliza o grid */
+    margin: 0 auto; 
 }
 
 .images img {
-    width: 100%; /* Ocupar a largura do container */
+    width: 100%; 
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -76,14 +76,14 @@ body {
     transform: scale(1.05);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
-  /* Estilo para as imagens nas páginas de detalhes */
+  
 .image-detail img {
-  width: 80%;  /* A largura será 80% da largura do container */
-  max-width: 600px;  /* Define um tamanho máximo para a imagem */
-  height: auto;  /* Ajusta a altura de forma proporcional */
+  width: 80%;  
+  max-width: 600px;  
+  height: auto;  
 }
 
-/* Botão no rodapé */
+
 footer {
     margin-top: 20px;
     padding: 20px;
@@ -105,21 +105,21 @@ footer {
     background: #ff4e71;
     transform: translateY(-2px);
 }
-/* Configurações gerais */
+
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: #d3d3d3; /* Fundo cinza */
+    background: #d3d3d3; 
     color: #333;
     text-align: center;
-    height: 100vh; /* Altura total da tela */
+    height: 100vh; 
     display: flex;
     flex-direction: column;
   }
   
-  /* Seção Hero - Mensagem principal */
+  
   .hero {
-    flex: 1; /* Ocupa a maior parte da tela */
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,7 +129,7 @@ body {
   }
   
   .hero h1 {
-    font-size: 6rem; /* Mensagem bem maior */
+    font-size: 6rem; 
     color: #ff758c;
     margin-bottom: 20px;
   }
@@ -140,7 +140,7 @@ body {
     color: #555;
   }
   
-  /* Conteúdo abaixo da mensagem principal */
+  
   .content {
     padding: 20px;
   }
@@ -171,7 +171,7 @@ body {
   }
   
   .image-item {
-    position: relative; /* Necessário para posicionar a mensagem sobre a imagem */
+    position: relative; 
   }
   
   .images img {
@@ -196,15 +196,15 @@ body {
     color: white;
     padding: 10px;
     border-radius: 5px;
-    display: none; /* Inicialmente escondido */
+    display: none; 
     font-size: 1rem;
   }
   
   .image-item:hover .message-hover {
-    display: block; /* Exibe a mensagem quando a imagem é hovered */
+    display: block; 
   }
   
-  /* Botão no rodapé */
+  
   footer {
     margin-top: 20px;
     padding: 20px;
